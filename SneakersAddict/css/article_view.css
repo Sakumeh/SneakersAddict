@@ -1,0 +1,67 @@
+.header.header_article{
+    height: 400px;
+}
+
+.header_article .header_texture{
+    background: url('img/air_jordan_1_high2.jpg');background-size: cover; background-repeat: no-repeat;
+}
+
+.header_article2 .header_texture{
+    background: url('img/air_jordan_4_metallic2');
+}
+.header_article3 .header_texture{
+    background: url('img/air_jordan_1_retro');
+}
+
+.header_article4 .header_texture{
+    background: url('img/Air_jordan_retro_low');
+}
+
+.header_article5 .header_texture{
+    background: url('img/air_jordan_1_off_white');
+}
+
+.header_article6 .header_texture{
+    background: url('img/nike_react_kendrick2');
+}
+
+.article_view_container{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.article_view_title{
+    font-size: 50px;
+    background: black;
+    color: white;
+    width: fit-content;
+    border-bottom: 3px solid rgb(66, 153, 161);
+    margin-bottom: 2px;
+    
+}
+.article_view_subtitle{
+    font-size: 25px;
+    color:black;
+    width: fit-content;
+    border-bottom:3px solid rgb(66, 153, 161);
+    margin-bottom: 2px;
+    
+
+}
+
+.article_view_author{
+    font-style: Montserrat;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.article_view_content{
+  padding-top: 30px;
+  text-align: justify;
+  padding-bottom: 30px;
+  font-size: 20px;
+  line-height:35px;
+}
+

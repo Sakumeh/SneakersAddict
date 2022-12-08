@@ -1,0 +1,130 @@
+
+::placeholder {
+   
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: rgb(255, 255, 255);
+   opacity: 1;
+   /* Firefox */
+}
+
+:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: rgb(255, 255, 255);
+}
+
+::-ms-input-placeholder {
+   /* Microsoft Edge */
+   color: rgb(255, 255, 255);
+}
+
+
+
+.box li a {
+   color: white;
+   font-size: 25px;
+}
+
+.box h1 {
+   color: black;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.box input[type="text"],
+.box input[type="Email"] {
+   border: 0;
+   background: rgba(128, 128, 128, 0.80);
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 14px 10px;
+   width: 260px;
+   outline: none;
+   color: white;
+   border-radius: 24px;
+   transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="Email"]:focus {
+   width: 320px;
+   border-color: white;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+   border: 0;
+   background: rgba(128, 128, 128, 0.80);
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 14px 10px;
+   width: 260px;
+   outline: #D3D3D3;
+   color: white;
+   border-radius: 24px;
+   transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+   width: 320px;
+   border-color: white;
+}
+
+.box input[type="text"],
+.box input[type="password2"] {
+   border: 0;
+   background: rgba(128, 128, 128, 0.80);
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 14px 10px;
+   width: 260px;
+   outline: none;
+   color: white;
+   border-radius: 24px;
+   transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password2"]:focus {
+   width: 320px;
+   border-color: white;
+}
+
+.box input[type="submit"] {
+   border: 0;
+   background: rgba(128, 128, 128, 0.80);
+   display: block;
+   margin: 20px auto;
+   margin-left: 5px;
+   margin-right: 5px;
+   border: 2px solid black;
+   padding: 14px 40px;
+   outline: none;
+   color: black;
+   border-radius: 24px;
+   transition: 0.25s;
+   cursor: pointer;
+   display: inline-block;
+   width: 160px;
+}
+
+.box input[type="submit"]::placeholder {
+   text-align: center;
+}
+
+.box input[type="submit"]:hover {
+   background: rgba(128, 128, 128, 0.80);
+   color: #E8E8E8;
+   border: 2px solid #E8E8E8;
+}
+.box a {
+   display: block;
+   text-align: center;
+   color: black;
+}

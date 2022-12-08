@@ -1,0 +1,36 @@
+#serge_bar{
+ display:block;
+padding-left: 0;
+transition: 0.25s ease-in-out;
+
+}
+
+#serge_bar input[type=text]{
+    color: black;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-right: 10px;
+    height: 35px;
+    font-size: 32px;
+    width: 120px;
+    transition: 0.25s ease-in-out;
+
+}
+
+#serge_bar input[type=text]:focus{
+    outline: none;
+    width: 300px;
+
+}
+
+#serge_bar button {
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(37, 35, 35);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
